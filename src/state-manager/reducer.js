@@ -16,7 +16,7 @@ function appReducer(state, action) {
 			updated_list = action.payload;
 			lists = state.lists;
 			list_index = lists.map(list => list.id).indexOf(updated_list.id);
-			lists[list_index] = { ...lists[list_index], updated_list };
+			lists[list_index] = { ...lists[list_index], ...updated_list };
 			return { ...state, lists };
 
 		case 'ADD_LIST':
