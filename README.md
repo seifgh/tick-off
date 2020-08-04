@@ -12,14 +12,11 @@ Tick-Off a simple To-Do ( cross-platform Desktop app ) built using Electronjs &a
 ```
 $ npm --version
 6.14.5
-
 ```
 - NodeJs JavaScript runtime environment  
 ```
 $ node --version
 v12.18.1
-
-
 ```
 ---
 ### Installing
